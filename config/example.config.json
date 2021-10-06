@@ -1,0 +1,29 @@
+{
+    "development": {
+      "username": "root",
+      "password": "thevinh123",
+      "database": "dbTest",
+      "host": "localhost",
+      "dialect": "mysql",
+      "timezone": "+07:00"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "gojp",
+      "password": "gojp",
+      "database": "gojp",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "dialectOptions": {
+        "dateStrings": true,
+        "typeCast": true
+      },
+      "timezone": "Asia/Ho_Chi_Minh"
+    }
+  }
